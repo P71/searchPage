@@ -1,144 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <title lang="en">OpenSUSE search</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Searchpage by P71</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author"   content="front-end and UI by Cynthia Sanchez, graphic design and animations by Zvezdana Marjanovic">
-
-    <link   href="build/css/openSUSE.min.css" type="text/css" rel="stylesheet" />
-    <script src="build/js/main.min.js"        type="text/javascript"></script>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-  <body id="search-index">
-    <div class="container-fluid">
-      <header>
-        <img src="assets/images/opensuse-logo.png" class="visible-xs-inline pull-left opensuse-logo-head" />
-        <ul class="text-right horizontal-list-no-list-style">
-          <li>
-            <a href="http://www.opensuse.org/">openSUSE</a>
-          </li>
-          <li>
-            <a href="http://software.opensuse.org/" lang="en">Get software</a>
-          </li>
-          <li>
-            <a href="http://es.opensuse.org/" lang="en">Wiki</a>
-          </li>
-          <li>
-            <a href="http://build.opensuse.org/" lang="en">Build Service</a>
-          </li>
-        </ul>
-      </header>
-      <section>
-        <div class="row">
-          <div class="fixed-column-form text-center">
-            <img src="assets/videos/open-suse-welcome.gif" />
-            <form method="get" action="https://www.google.com/search" class="index-search-form">
-              <div class="input-group">
-                <img src="assets/images/opensuse-logo.png" class="opensuse-logo-fixed" />
-                <input type="text" name="q" class="form-control" lang="en" placeholder="What are you searching for?" />
-                <span class="input-group-btn">
-                  <input type="submit" class="btn btn-primary" lang="en" value="Search with Google">
-                </span>
-              </div>
-            </form>
-            <div class="text-left powered-by-google">
-              <small lang="en">Powered by</small>
-              <img src="assets/images/google-powered-by.png" />
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <div class="row-0-margin">
-        <div class="col-md-4 hidden-sm hidden-xs">
-          <ul class="horizontal-list-no-list-style">
-            <li>
-              <a href="https://www.suse.com/" target="_blank">
-                <div class="suse-logo"></div>
-              </a>
-            </li>
-            <li>
-              <a href="http://en.opensuse.org/Sponsors">
-                <div class="AMD-logo"></div>
-              </a>
-            </li>
-            <li>
-              <a href="http://en.opensuse.org/Sponsors">
-                <div class="heinlein-logo"></div>
-              </a>
-            </li>
-            <li>
-              <a href="http://en.opensuse.org/Sponsors">
-                <div class="ip-exchange-logo"></div>
-              </a>
-            </li>
-            <li>
-              <a href="http://en.opensuse.org/Sponsors">
-                <div class="B1-systems-logo"></div>
-              </a>
-            </li>
-          </ul>
-        </div>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Searchpage</h1>
+      <h2 class="project-tagline">This will be the new landing page default for openSUSE in Firefox :D</h2>
+      <a href="https://github.com/P71/searchPage" class="btn">View on GitHub</a>
+      <a href="https://github.com/P71/searchPage/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/P71/searchPage/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <div class="col-md-4 col-xs-6 text-center">
-          <ul class="horizontal-list-no-list-style">
-            <li>
-              <a href="http://connect.opensuse.org/" lang="en">Social Network</a>
-            </li>
-            <li>
-              <a href="http://news.opensuse.org/" lang="en">News</a>
-            </li>
-            <li>
-              <a href="http://forums.opensuse.org/" lang="en">Forums</a>
-            </li>
-            <li>
-              <a href="http://shop.opensuse.org/" lang="en">Shop</a>
-            </li>
-            <li>
-              <a href="http://lizards.opensuse.org/" lang="en">Blogs</a>
-            </li>
-            <li>
-              <a href="mailto:press@opensuse.org" lang="en">Press</a>
-            </li>
-          </ul>
-        </div>
+    <section class="main-content">
+      <h1>
+<a id="searchpage" class="anchor" href="#searchpage" aria-hidden="true"><span class="octicon octicon-link"></span></a>searchPage</h1>
 
-        <div class="col-md-3 col-md-offset-1 col-xs-6 select-translation">
-          <h6 lang="en">Change language</h6>
-          <div class="dropup">
-            <button class="btn btn-default dropdown-toggle dropdown-menu-left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              <span class="selected-language">English</span>
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu languages" aria-labelledby="dropdownMenu1">
-              <li><a href="#" class="change-language" data-language-value="ca">Catalan</a></li>
-              <li><a href="#" class="change-language" data-language-value="zh_TW">中文（繁體）</a></li>
-              <li><a href="#" class="change-language" data-language-value="zh_CN">中文（简体）</a></li>
-              <li><a href="#" class="change-language" data-language-value="nl">Dutch</a></li>
-              <li><a href="#" class="change-language" data-language-value="en">English</a></li>
-              <li><a href="#" class="change-language" data-language-value="es">Español</a></li>
-              <li><a href="#" class="change-language" data-language-value="fr">French</a></li>
-              <li><a href="#" class="change-language" data-language-value="de">German</a></li>
-              <li><a href="#" class="change-language" data-language-value="el">Greek</a></li>
-              <li><a href="#" class="change-language" data-language-value="it">Italian</a></li>
-              <li><a href="#" class="change-language" data-language-value="ja">Japanese</a></li>
-              <li><a href="#" class="change-language" data-language-value="nn">Norwegian Nynorsk</a></li>
-              <li><a href="#" class="change-language" data-language-value="pl">Polski</a></li>
-              <li><a href="#" class="change-language" data-language-value="pt_BR">Portuguese</a></li>
-              <li><a href="#" class="change-language" data-language-value="ru">Русский</a></li>
-              <li><a href="#" class="change-language" data-language-value="sk">Slovak</a></li>
-              <li><a href="#" class="change-language" data-language-value="ca">Ukrainian</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+<p>This will be the new landing page default for openSUSE in Firefox :D</p>
+
+<p>Please visit: 
+<a href="http://opensuse.github.io/searchPage/">http://opensuse.github.io/searchPage/</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/P71/searchPage">Searchpage</a> is maintained by <a href="https://github.com/P71">P71</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
   </body>
 </html>
